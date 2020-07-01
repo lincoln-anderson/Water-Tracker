@@ -15,6 +15,8 @@
 		01F5E11B24ACC2F1000BAA68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E0F024ACC2EF000BAA68 /* ContentView.swift */; };
 		01F5E11C24ACC2F1000BAA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F5E0F124ACC2F0000BAA68 /* Assets.xcassets */; };
 		01F5E11D24ACC2F1000BAA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F5E0F124ACC2F0000BAA68 /* Assets.xcassets */; };
+		01F5E12D24ACC30C000BAA68 /* WaterTrackerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E12C24ACC30C000BAA68 /* WaterTrackerData.swift */; };
+		01F5E12E24ACC30C000BAA68 /* WaterTrackerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E12C24ACC30C000BAA68 /* WaterTrackerData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		01F5E11124ACC2F1000BAA68 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F5E11524ACC2F1000BAA68 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		01F5E11724ACC2F1000BAA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F5E12C24ACC30C000BAA68 /* WaterTrackerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 			children = (
 				01F5E0EF24ACC2EF000BAA68 /* Water_TrackerApp.swift */,
 				01F5E0F024ACC2EF000BAA68 /* ContentView.swift */,
+				01F5E12C24ACC30C000BAA68 /* WaterTrackerData.swift */,
 				01F5E0F124ACC2F0000BAA68 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -310,6 +314,7 @@
 			files = (
 				01F5E11A24ACC2F1000BAA68 /* ContentView.swift in Sources */,
 				01F5E11824ACC2F1000BAA68 /* Water_TrackerApp.swift in Sources */,
+				01F5E12D24ACC30C000BAA68 /* WaterTrackerData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +324,7 @@
 			files = (
 				01F5E11B24ACC2F1000BAA68 /* ContentView.swift in Sources */,
 				01F5E11924ACC2F1000BAA68 /* Water_TrackerApp.swift in Sources */,
+				01F5E12E24ACC30C000BAA68 /* WaterTrackerData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
