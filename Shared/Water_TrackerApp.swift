@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Water_TrackerApp: App {
+    
+    @StateObject private var store = WaterTrackerDayDataStore()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreen(store: store)
         }
     }
 }
