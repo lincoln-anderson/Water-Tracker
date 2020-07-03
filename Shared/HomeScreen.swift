@@ -39,6 +39,10 @@ struct HomeScreen: View {
 
 struct homeScreen_Previews: PreviewProvider {
     static var previews: some View {
-        HomeScreen(store: WaterTrackerDayDataStore())
+        Group {
+            HomeScreen(store: WaterTrackerDayDataStore())
+                .preferredColorScheme(.dark)
+            HomeScreen(store: WaterTrackerDayDataStore())
+        }
     }
 }

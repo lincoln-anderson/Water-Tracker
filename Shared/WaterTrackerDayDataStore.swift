@@ -1,11 +1,12 @@
 //
-//  WaterTrackerData.swift
+//  WaterTrackerDayDataStore.swift
 //  Water Tracker
 //
-//  Created by lincoln anderson on 7/1/20.
+//  Created by lincoln anderson on 7/3/20.
 //
 
 import Foundation
+import SwiftUI
 
 class WaterTrackerDayDataStore: ObservableObject {
     init() {}
@@ -18,7 +19,7 @@ class WaterTrackerDayDataStore: ObservableObject {
         
     ]
     
-    var days: [WaterTrackerDayData] = []
+    @Published var days: [WaterTrackerDayData] = []
     
     func AddDay(addedDay: WaterTrackerDayData) {
         
@@ -28,12 +29,4 @@ class WaterTrackerDayDataStore: ObservableObject {
     }
     
     
-}
-
-struct WaterTrackerDayData: Identifiable {
-    let id = UUID()
-    let goal: String
-    let goalProgress = 0
-    let data: [Float32] = []
-    let entryCounter = 0
 }
