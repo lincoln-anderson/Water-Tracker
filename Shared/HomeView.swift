@@ -10,7 +10,7 @@ import SwiftUI
 struct HomeScreen: View {
     
     @ObservedObject var store: WaterTrackerDayDataStore
-    @State private var localGoal = ""
+    @State var showAddSheet = false
 
         var body: some View {
             NavigationView {
@@ -19,6 +19,17 @@ struct HomeScreen: View {
                     Text(day.goal)
                     
                     
+                }
+                .navigationTitle("Water Goals")
+                
+                .navigationBarItems(trailing: Button(action: {
+                    
+                    self.showAddSheet.toggle()
+                    
+                }, label: {
+                    Image(systemName: "plus")
+                })).sheet(isPresented: $showAddSheet) {
+                    AddGoalView(store: store, isPresented: self.$showAddSheet)
                 }
             
             }

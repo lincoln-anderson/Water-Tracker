@@ -11,7 +11,11 @@ struct AddGoalView: View {
     
     @ObservedObject var store: WaterTrackerDayDataStore
     
+    @Binding var isPresented: Bool
+    
     @State var localGoal: String = ""
+    
+    
     
     
     var body: some View {
@@ -27,17 +31,30 @@ struct AddGoalView: View {
 
                 let newDay = WaterTrackerDayData(goal: localGoal)
 
-                store.days.append(newDay)
+                self.addDay(day: newDay)
+                
+                self.isPresented.toggle()
 
             })
         }
         
         
     }
+    
+    
+    private func addDay(day: WaterTrackerDayData) {
+        
+        store.days.append(day)
+        
+        
+    }
+    
 }
 
-struct AddGoalView_Previews: PreviewProvider {
-    static var previews: some View {
-        AddGoalView(store: WaterTrackerDayDataStore())
-    }
-}
+
+
+//struct AddGoalView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        AddGoalView(store: WaterTrackerDayDataStore(), isPresented: )
+//    }
+//}
