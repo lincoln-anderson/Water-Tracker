@@ -14,9 +14,9 @@ struct HomeScreen: View {
 
         var body: some View {
             NavigationView {
-                List(store.exampleDays) { day in
+                List(store.days) { day in
                     
-                    Text(day.goal)
+                    GoalRowView(goal: day.goal)
                     
                     
                 }

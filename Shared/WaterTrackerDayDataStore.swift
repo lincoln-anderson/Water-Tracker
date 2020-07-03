@@ -13,13 +13,17 @@ class WaterTrackerDayDataStore: ObservableObject {
 
     var exampleDays = [
         
-        WaterTrackerDayData(goal: "128"),
-        WaterTrackerDayData(goal: "100")
+        WaterTrackerDayData(goal: 128),
+        WaterTrackerDayData(goal: 100)
         
         
     ]
     
-    @Published var days: [WaterTrackerDayData] = []
+    @Published var days: [WaterTrackerDayData] = [
+        WaterTrackerDayData(goal: 128),
+        WaterTrackerDayData(goal: 100)
+    
+    ]
     
     
 }

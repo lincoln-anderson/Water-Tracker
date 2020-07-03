@@ -21,6 +21,8 @@
 		01F5E13124AF63BD000BAA68 /* WaterTrackerDayDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E12F24AF63BD000BAA68 /* WaterTrackerDayDataStore.swift */; };
 		01F5E13324AF6545000BAA68 /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E13224AF6545000BAA68 /* AddGoalView.swift */; };
 		01F5E13424AF6545000BAA68 /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E13224AF6545000BAA68 /* AddGoalView.swift */; };
+		01F5E13624AF745C000BAA68 /* GoalRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E13524AF745C000BAA68 /* GoalRowView.swift */; };
+		01F5E13724AF745C000BAA68 /* GoalRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E13524AF745C000BAA68 /* GoalRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,7 @@
 		01F5E12C24ACC30C000BAA68 /* WaterTrackerDayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerDayData.swift; sourceTree = "<group>"; };
 		01F5E12F24AF63BD000BAA68 /* WaterTrackerDayDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerDayDataStore.swift; sourceTree = "<group>"; };
 		01F5E13224AF6545000BAA68 /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
+		01F5E13524AF745C000BAA68 /* GoalRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,7 @@
 			children = (
 				01F5E0EF24ACC2EF000BAA68 /* Water_TrackerApp.swift */,
 				01F5E0F024ACC2EF000BAA68 /* HomeView.swift */,
+				01F5E13524AF745C000BAA68 /* GoalRowView.swift */,
 				01F5E13224AF6545000BAA68 /* AddGoalView.swift */,
 				01F5E12C24ACC30C000BAA68 /* WaterTrackerDayData.swift */,
 				01F5E12F24AF63BD000BAA68 /* WaterTrackerDayDataStore.swift */,
@@ -322,6 +326,7 @@
 			files = (
 				01F5E11A24ACC2F1000BAA68 /* HomeView.swift in Sources */,
 				01F5E13024AF63BD000BAA68 /* WaterTrackerDayDataStore.swift in Sources */,
+				01F5E13624AF745C000BAA68 /* GoalRowView.swift in Sources */,
 				01F5E11824ACC2F1000BAA68 /* Water_TrackerApp.swift in Sources */,
 				01F5E13324AF6545000BAA68 /* AddGoalView.swift in Sources */,
 				01F5E12D24ACC30C000BAA68 /* WaterTrackerDayData.swift in Sources */,
@@ -334,6 +339,7 @@
 			files = (
 				01F5E11B24ACC2F1000BAA68 /* HomeView.swift in Sources */,
 				01F5E13124AF63BD000BAA68 /* WaterTrackerDayDataStore.swift in Sources */,
+				01F5E13724AF745C000BAA68 /* GoalRowView.swift in Sources */,
 				01F5E11924ACC2F1000BAA68 /* Water_TrackerApp.swift in Sources */,
 				01F5E13424AF6545000BAA68 /* AddGoalView.swift in Sources */,
 				01F5E12E24ACC30C000BAA68 /* WaterTrackerDayData.swift in Sources */,
