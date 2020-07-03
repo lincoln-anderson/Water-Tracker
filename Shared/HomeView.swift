@@ -13,25 +13,15 @@ struct HomeScreen: View {
     @State private var localGoal = ""
 
         var body: some View {
-            
-            VStack {
-                HStack {
-                    Spacer()
-                    TextField("Enter Goal", text: $localGoal)
-                    Spacer()
+            NavigationView {
+                List(store.exampleDays) { day in
+                    
+                    Text(day.goal)
+                    
+                    
                 }
-                
-                Button("Add Goal", action: {
-                    
-                    
-                    let newDay = WaterTrackerDayData(goal: localGoal)
-                    
-                    store.days.append(newDay)
-                    
-                })
+            
             }
-            
-            
         }
     }
 

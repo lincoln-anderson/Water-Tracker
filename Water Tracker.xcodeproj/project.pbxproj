@@ -11,14 +11,16 @@
 		01F5E11624ACC2F1000BAA68 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E11524ACC2F1000BAA68 /* Tests_macOS.swift */; };
 		01F5E11824ACC2F1000BAA68 /* Water_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E0EF24ACC2EF000BAA68 /* Water_TrackerApp.swift */; };
 		01F5E11924ACC2F1000BAA68 /* Water_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E0EF24ACC2EF000BAA68 /* Water_TrackerApp.swift */; };
-		01F5E11A24ACC2F1000BAA68 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E0F024ACC2EF000BAA68 /* HomeScreen.swift */; };
-		01F5E11B24ACC2F1000BAA68 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E0F024ACC2EF000BAA68 /* HomeScreen.swift */; };
+		01F5E11A24ACC2F1000BAA68 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E0F024ACC2EF000BAA68 /* HomeView.swift */; };
+		01F5E11B24ACC2F1000BAA68 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E0F024ACC2EF000BAA68 /* HomeView.swift */; };
 		01F5E11C24ACC2F1000BAA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F5E0F124ACC2F0000BAA68 /* Assets.xcassets */; };
 		01F5E11D24ACC2F1000BAA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F5E0F124ACC2F0000BAA68 /* Assets.xcassets */; };
 		01F5E12D24ACC30C000BAA68 /* WaterTrackerDayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E12C24ACC30C000BAA68 /* WaterTrackerDayData.swift */; };
 		01F5E12E24ACC30C000BAA68 /* WaterTrackerDayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E12C24ACC30C000BAA68 /* WaterTrackerDayData.swift */; };
 		01F5E13024AF63BD000BAA68 /* WaterTrackerDayDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E12F24AF63BD000BAA68 /* WaterTrackerDayDataStore.swift */; };
 		01F5E13124AF63BD000BAA68 /* WaterTrackerDayDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E12F24AF63BD000BAA68 /* WaterTrackerDayDataStore.swift */; };
+		01F5E13324AF6545000BAA68 /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E13224AF6545000BAA68 /* AddGoalView.swift */; };
+		01F5E13424AF6545000BAA68 /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E13224AF6545000BAA68 /* AddGoalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,7 @@
 
 /* Begin PBXFileReference section */
 		01F5E0EF24ACC2EF000BAA68 /* Water_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water_TrackerApp.swift; sourceTree = "<group>"; };
-		01F5E0F024ACC2EF000BAA68 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		01F5E0F024ACC2EF000BAA68 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		01F5E0F124ACC2F0000BAA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01F5E0F624ACC2F0000BAA68 /* Water Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Water Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F5E0F924ACC2F1000BAA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		01F5E11724ACC2F1000BAA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01F5E12C24ACC30C000BAA68 /* WaterTrackerDayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerDayData.swift; sourceTree = "<group>"; };
 		01F5E12F24AF63BD000BAA68 /* WaterTrackerDayDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerDayDataStore.swift; sourceTree = "<group>"; };
+		01F5E13224AF6545000BAA68 /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				01F5E0EF24ACC2EF000BAA68 /* Water_TrackerApp.swift */,
-				01F5E0F024ACC2EF000BAA68 /* HomeScreen.swift */,
+				01F5E0F024ACC2EF000BAA68 /* HomeView.swift */,
+				01F5E13224AF6545000BAA68 /* AddGoalView.swift */,
 				01F5E12C24ACC30C000BAA68 /* WaterTrackerDayData.swift */,
 				01F5E12F24AF63BD000BAA68 /* WaterTrackerDayDataStore.swift */,
 				01F5E0F124ACC2F0000BAA68 /* Assets.xcassets */,
@@ -316,9 +320,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F5E11A24ACC2F1000BAA68 /* HomeScreen.swift in Sources */,
+				01F5E11A24ACC2F1000BAA68 /* HomeView.swift in Sources */,
 				01F5E13024AF63BD000BAA68 /* WaterTrackerDayDataStore.swift in Sources */,
 				01F5E11824ACC2F1000BAA68 /* Water_TrackerApp.swift in Sources */,
+				01F5E13324AF6545000BAA68 /* AddGoalView.swift in Sources */,
 				01F5E12D24ACC30C000BAA68 /* WaterTrackerDayData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,9 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F5E11B24ACC2F1000BAA68 /* HomeScreen.swift in Sources */,
+				01F5E11B24ACC2F1000BAA68 /* HomeView.swift in Sources */,
 				01F5E13124AF63BD000BAA68 /* WaterTrackerDayDataStore.swift in Sources */,
 				01F5E11924ACC2F1000BAA68 /* Water_TrackerApp.swift in Sources */,
+				01F5E13424AF6545000BAA68 /* AddGoalView.swift in Sources */,
 				01F5E12E24ACC30C000BAA68 /* WaterTrackerDayData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,4 +15,5 @@ struct WaterTrackerDayData: Identifiable {
     let goalProgress = 0
     let data: [Float32] = []
     let entryCounter = 0
+    let date: Date? = nil
 }

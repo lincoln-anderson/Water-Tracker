@@ -21,12 +21,5 @@ class WaterTrackerDayDataStore: ObservableObject {
     
     @Published var days: [WaterTrackerDayData] = []
     
-    func AddDay(addedDay: WaterTrackerDayData) {
-        
-        days.append(addedDay)
-        
-        
-    }
-    
     
 }
