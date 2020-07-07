@@ -34,12 +34,14 @@ struct HomeScreen: View {
                 }
                 .navigationTitle("Days Logged")
                 .toolbar {
-                    
+                    Spacer()
                     #if os(iOS)
                     EditButton()
                     #endif
+                    Spacer()
                     
-                    Button("add", action: makeNewDay)
+                    Button("Add", action: makeNewDay)
+                    Spacer()
                 }
                 
                 
