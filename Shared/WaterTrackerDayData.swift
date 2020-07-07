@@ -13,7 +13,5 @@ struct WaterTrackerDayData: Identifiable {
     let id = UUID()
     let goal: Int
     let progress: Int
-    let data: [Float32] = []
-    let entryCounter = 0
     let date: Date
 }
