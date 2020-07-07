@@ -12,8 +12,8 @@ import SwiftUI
 struct WaterTrackerDayData: Identifiable {
     let id = UUID()
     let goal: Int
-    let goalProgress = 0
+    let progress: Int
     let data: [Float32] = []
     let entryCounter = 0
-    let date: Date? = nil
+    let date: Date
 }

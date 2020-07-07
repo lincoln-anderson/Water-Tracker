@@ -22,12 +22,13 @@ struct AddGoalView: View {
         VStack {
             HStack {
                 TextField("Enter Goal", text: $localGoal)
+                    .keyboardType(.numberPad)
             }
 
             Button("Add Goal", action: {
 
 
-                let newDay = WaterTrackerDayData(goal: Int(localGoal)!)
+                let newDay = WaterTrackerDayData(goal: Int(localGoal)!, progress: 0, date: Date())
 
                 self.addDay(day: newDay)
                 
